@@ -21,17 +21,19 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets",
+             "src/assets",
+              "src/assets/favicon.ico",
               {
-                "glob": "**/*",
+                "glob": "*/",
                 "input": "src/assets",
                 "output": "assets"
               }
             ],
+            
             "styles": [
-              "src/styles.css"
-            ],
+  "src/styles.css"
+]
+,
             "scripts": [],
             "server": "src/main.server.ts",
             "outputMode": "server",
