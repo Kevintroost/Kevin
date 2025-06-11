@@ -1,9 +1,7 @@
 // tailwind.config.js
 export default {
     content: [
-        "./src/app/navbar/navbar.component.html",
-        "./src/app/navbar/navbar.component.ts",
-        
+        "./src/**/*.{html,ts}",
     ],
     theme: {
         extend: {
